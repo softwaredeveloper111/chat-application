@@ -13,7 +13,7 @@ app.use(cors({
   credentials:true
 }))
 
-
+app.use(express.static("public"))
 
 
 
