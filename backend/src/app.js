@@ -9,9 +9,11 @@ const app = express();
 
 /** application middleware */
 app.use(cors({
-  origin:"http:localhost:5173",
+  origin:"https://chat-application-b8js.onrender.com",
   credentials:true
 }))
+
+
 
 
 
