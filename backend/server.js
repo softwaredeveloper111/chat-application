@@ -10,7 +10,7 @@ const port  = process.env.PORT || 7000;
 const server = createServer(app);
 const io = new Server(server,{
   cors:{
-    origin:"http://localhost:5173"
+    origin:"https://chat-application-b8js.onrender.com"
   }
 });
 
